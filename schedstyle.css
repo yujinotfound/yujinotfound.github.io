@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Times New Roman', serif; /* Font family */
+    font-size: 30px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #969593;
+    color: black;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
