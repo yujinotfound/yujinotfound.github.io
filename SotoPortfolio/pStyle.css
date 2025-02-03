@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5e2dd;
+}
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cover-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+}
+.about {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
